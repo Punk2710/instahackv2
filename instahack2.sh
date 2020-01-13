@@ -29,11 +29,11 @@ read -p "[+]=>" instahack
 if [ "$instahack" = "1" ];then
 clear
 figlet Instahack2
-echo "\033[1;32m\n\n[+]=>DIGITE OU COLE O NOME DA VÍTIMA exe:(pedro1234)"
+echo "\033[1;32m\n\n[+]=>(lilith_dfs)"
 #
-read -p "[+]=>" vitima
+read -p "[+]=>" lilith_dfs
 echo
-echo "\033[1;32m\n\n[+]=>DIGITE OU COLE O CAMINHO DA SUA LISTA DE SENHA (ex: /sdcard/Wordlist/senhas.txt)"
+echo "\033[1;32m\n\n[+]=>(python2 instagram.py teste1234 /$HOME/Brute-Force/wordlist/wordlist.txt)"
 #
 read -p "[+]=>" wordlist
 #
